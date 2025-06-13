@@ -1,0 +1,7 @@
+name: Build Django App
+on:
+  push:
+    branches:
+      - main
+  pull_dispatch:
+
