@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Django
+*.log
+db.sqlite3
+/static/
+media/
+
+# Environnements virtuels
+.venv/
+venv/
+ENV/
+
+# VSCode
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Migrations compilées
+*.pyc
+*.pyo
+
+# Fichiers secrets
+.env
+.env.*
+
+# Autres
+*.swp
+*.swo
+
