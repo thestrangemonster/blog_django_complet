@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Ajouter un article</title>
+</head>
+<body>
+    <h1>Ajouter un article</h1>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Publier</button>
+    </form>
+    <p><a href="/">&larr; Retour à la liste des articles</a></p>
+</body>
+</html>
+

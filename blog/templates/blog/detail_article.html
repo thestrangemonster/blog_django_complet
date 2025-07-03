@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ article.titre }}</title>
+</head>
+<body>
+    <h1>{{ article.titre }}</h1>
+    <p><em>Publié le {{ article.date_creation|date:"d/m/Y H:i" }}</em></p>
+    <div>{{ article.contenu|linebreaks }}</div>
+    <p><a href="/">&larr; Retour à la liste des articles</a></p>
+</body>
+</html>
+
